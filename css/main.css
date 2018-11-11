@@ -53,25 +53,26 @@ body {
 }
 
 .banner {
+  display: flex;
   position: relative;
   max-height: 500px;
   overflow: hidden;
+
 }
 
 .content {
   display: flex;
-  /* align-items: flex-start; */
-  justify-content: center;
-
+  direction: row;
   max-width: 45em;
   width: 100%;
+  justify-content: flex-start;
 
   padding: 1.5em;
 
   position: absolute;
-  top: 0;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .title {
