@@ -26,14 +26,14 @@ p {
 }
 
 .btn {
+  display: inline-block;
   font-family: Roboto, sans-serif;
   font-size: 1.5rem;
   color: #fff;
   background-color: #333;
   text-decoration: none;
-  padding: .5em .75em;
+  padding: .6em .875em;
   border-radius: 8px;
-  margin: 1em 0;
 }
 body {
   margin: 0;
@@ -43,9 +43,13 @@ body {
   width: 100%;
 }
 
-.img-logo{
-  width: 100%;
- }
+.logo {
+  width: 50%;
+}
+
+.img-logo {
+  max-width: 100%;
+}
 
 .banner {
   position: relative;
@@ -60,14 +64,19 @@ body {
   max-width: 45em;
   width: 100%;
 
-  padding: 1em;
+  padding: 1.5em;
 
   position: absolute;
-  bottom: 50%;
+  top: 0;
   left: 50%;
-  transform: translateX(-50%) translateY(50%);
+  transform: translateX(-50%);
 }
 
 .title {
   padding-left: 2em;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #000;
 }
