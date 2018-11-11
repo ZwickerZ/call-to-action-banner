@@ -24,15 +24,18 @@ p {
   margin: .5em 0;
 }
 
-.btn-big {
+.btn {
   display: inline-block;
   font-family: Roboto, sans-serif;
   font-size: 1.5rem;
-  color: #fff;
-  background-color: #333;
   text-decoration: none;
   padding: .6em .875em;
   border-radius: 8px;
+}
+
+.btn-big {
+  color: #fff;
+  background-color: #333;
 }
 
 body {
@@ -64,7 +67,8 @@ body {
   display: flex;
   max-width: 45em;
   width: 100%;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
 
   padding: 1.5em;
 
