@@ -62,7 +62,6 @@ body {
 
 .content {
   display: flex;
-  direction: row;
   max-width: 45em;
   width: 100%;
   justify-content: flex-start;
